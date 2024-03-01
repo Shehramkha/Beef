@@ -119,7 +119,7 @@ echo -e "\033[38;5;46m"
 sed -i 's/nio4r (2.5.8)/nio4r (2.5.9)/' Gemfile.lock
 sed -i '268,274d' install
 sed -i '26,181d' install
-sed -i 's/sudo//' install
+nano install
 bash install
 
 #ln -s /data/data/com.termux/files/home/beef/beef $PREFIX/bin/
